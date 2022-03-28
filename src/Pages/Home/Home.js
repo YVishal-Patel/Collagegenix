@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
-import img1 from "./Home_img/demo10.jpg";
-import img2 from "./Home_img/demo13.jpg";
-import img3 from "./Home_img/demo14.jpg";
+import img1 from "./Home_img/home_img3.jpg";
+import img2 from "./Home_img/home_img1.jpg";
+import img3 from "./Home_img/home_img2.jpg";
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
@@ -47,8 +47,8 @@ export default function Home() {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <div className="home_content">
-          <div className="container">
+        <div className="home_content ">
+          <div className="container  home_container ">
             <div className="home_text">
               <h1>Collegegenix</h1>
               <p>Dream It, Believe It, Do It.</p>
