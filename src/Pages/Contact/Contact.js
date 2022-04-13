@@ -4,10 +4,11 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="d-flex main_content">
-      <div className="col-md-6  register-contect">
+      <div className="row">
+      <div className="col-lg-6  register-contect">
         <span>Dream it, Believe it, Do it</span>
         <h1>REGISTER NOW</h1>
-        <div className="d-flex justify-content-between footer-nos">
+        <div className=" footer-nos records">
           <div>
             <h1>25+</h1>
             <p>Mentores</p>
@@ -23,7 +24,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="col-md-6 register-form">
+      <div className="col-lg-6 register-form">
         <form action="" className="gform">
           <h4>REGISTER HERE</h4>
           <p>Fill below details to speak with our team.</p>
@@ -72,6 +73,7 @@ const Contact = () => {
             Register
           </button>
         </form>
+      </div>      
       </div>
     </div>
   );

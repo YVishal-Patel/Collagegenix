@@ -12,6 +12,7 @@ import Placements from "./Pages/Placements/Placement";
 import Contactus from "./Pages/Contact/Contact";
 import Aboutus from "./Pages/About/About";
 import Login from "./Pages/login/Login";
+import Team from "./Pages/Team/Team";
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
           <Route path="/placements" element={<Placements />} />
           <Route path="/contactus" element={<Contactus />} />
           <Route path="/aboutus" element={<Aboutus />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/team" element={<Team />} />
+          {/* <Route path="/login" element={<Login />} /> */}
         </Routes>
       </div>
       <div className="footer">

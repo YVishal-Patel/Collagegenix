@@ -57,12 +57,17 @@ export const Navabar = () => {
                   About Us
                 </Link>
               </li>
-
+              <li className="nav-item">
+                <Link className="nav-link active " to="/team">
+                  Team
+                </Link>
+              </li>
+{/* 
               <li className="nav-item ">
                 <Link className="nav-link active" to="/login">
                   login
                 </Link>
-              </li>
+              </li> */}
             </div>
           </div>
 

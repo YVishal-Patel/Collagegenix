@@ -29,7 +29,7 @@ export default function Home() {
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev car-btn1"
             type="button"
             data-bs-target="#carouselExampleFade"
             data-bs-slide="prev"
@@ -38,7 +38,7 @@ export default function Home() {
             <span class="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            class="carousel-control-next car-btn2"
             type="button"
             data-bs-target="#carouselExampleFade"
             data-bs-slide="next"
@@ -53,8 +53,7 @@ export default function Home() {
               <h1>Collegegenix</h1>
               <p>Dream It, Believe It, Do It.</p>
               <p className="home_discription">
-                Here you can get information regarding Internship & Placement of
-                Students in different companies <br /> from CDGI and get
+                Here you can get information regarding Internship & Placement of Students in different companies <br /> from CDGI and get
                 connected by them.
               </p>
               <button className="btn_home ">

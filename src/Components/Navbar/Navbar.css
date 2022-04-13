@@ -40,3 +40,9 @@
 .nav-item a {
   color: #fff;
 }
+
+@media screen and (max-width:410px){
+  .navbar{
+    width: 100%;
+  }
+}
